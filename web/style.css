@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 24, 2016, 8:29:46 PM
+    Author     : wutunghan
+*/
+
+.headbar{
+    width: 100%px;
+    height: 40px;
+    margin-top: 20px;
+    border-style: solid;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#cf {
+  position:relative;
+  width:10%;
+  margin:30px;
+  text-align: center;
+}
+
+#cf img {
+  position:absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+th, td {
+    padding: 5px;
+}
+
+wd{
+    font-size: 50px;
+    font-language-override: inherit;
+}
+.tablebar{
+    width: 100%px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.headtext{
+   position: absolute;
+   text-align: center;
+   left:38%;
+   width:50;
+   color:white;
+   font: bold 50px/45px Helvetica, Sans-serif;
+   letter-spacing:10px;
+   background:rgb(191, 216, 205);
+   background:rgba(0,0,0,0.7);
+   padding:0 8px;
+   
+}
+.headphoto{
+   position: relative;
+   width: 100%px;
+   height: 180px;
+   text-align:center;
+   background-image: url(Images/book-fair-678264_1280.jpg);
+   
+}
+.headtext2{
+   position: absolute;
+   text-align: center;
+   left:35%;
+   width:20;
+   top:67px;
+   color:white;
+   font: 24px/40px Helvetica, Sans-serif;
+   letter-spacing:7px;
+   background:rgb(191, 216, 205);
+   background:rgba(0,0,0,0.7);
+   padding:8px;
+   
+}
+footer{
+   margin-top: 10px;
+   width:100%;
+   background:rgb(191, 216, 205);
+   background:rgba(0,0,0,0.7);
+}
+.buttonmanu{
+    margin-top:3%;
+}
+
+body {
+  background:#c1bdba;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:#1ab188;
+  transition:.5s ease;
+
+}
+
+label {
+  position:absolute;
+  left:20%;
+  font-size:22px;
+ 
+}
+label.active {
+  left:2px;
+  font-size:14px;
+
+}
+.button {
+  position: relative;
+  left: 25%;
+  outline:none;
+  padding:15px;
+  font-size:2rem;
+  font-weight:bold;
+  text-transform:uppercase;
+  background:#1ab188;
+  color:white;
+}
+
+.button-block {
+  display:block;
+  width:50%;
+  
+}
+
+.field-wrap {
+  position:relative;
+  margin-bottom:40px;
+}
+
